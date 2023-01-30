@@ -1,7 +1,7 @@
 const express = require('express')
 
 const router = express.Router();
-const ContactosController = require('../controller/contactos')
+const ContactosController = require('../controllers/contactos')
 
 let api_ruta = "/api/v1/"
 
