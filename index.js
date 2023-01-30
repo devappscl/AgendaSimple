@@ -22,6 +22,6 @@ app.use(bodyParser.json())
 app.use("/",require('./routes/routes'))
 
 // SERVIDOR
-app.listen(process.env.PORT, ()=>{
+app.listen(process.env.PORT || 3000, ()=>{
     console.log("ON PROCCESS PORT " + process.env.PORT)
 })
